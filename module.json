@@ -1,0 +1,69 @@
+{
+  "name": "vttoms-tower-map",
+  "title": "VTToms Tower Map",
+  "description": "Eine Karte für den Angriff oder die Verteidigung eines Turmes. Die Karte wurde erstellt mit Dungeon Alchemist.",
+  "version": "1.3.0",
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "9",
+  "author": "VTTom",
+  "authors": [
+    {
+      "name": "VTTom",
+      "discord": "vttom#9720"
+    }
+  ],
+  "packs": [
+    {
+      "name": "maps",
+      "label": "vttoms-tower-map-maps",
+      "path": "/packs/maps.db",
+      "entity": "Scene",
+      "type": "Scene"
+    },
+    {
+      "name": "journals",
+      "label": "vttoms-tower-map-journals",
+      "path": "/packs/journals.db",
+      "entity": "JournalEntry",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "macros",
+      "label": "vttoms-tower-map-macros",
+      "path": "/packs/macros.db",
+      "entity": "Macro",
+      "type": "Macro"
+    },
+    {
+      "name": "playlists",
+      "label": "vttoms-tower-map-playlists",
+      "path": "/packs/playlists.db",
+      "entity": "Playlist",
+      "type": "Playlist"
+    }
+  ],
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+  "dependencies": [
+    {
+      "name": "scene-packer",
+      "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
+      "type": "module"
+    },
+	{
+	  "name": "multilevel-tokens",
+      "manifest": "https://raw.githubusercontent.com/grandseiken/foundryvtt-multilevel-tokens/master/module.json",
+      "type": "module"
+	},
+	{
+	  "name": "levels",
+      "manifest": "https://github.com/theripper93/Levels/releases/latest/download/module.json",
+      "type": "module"
+	}
+  ],
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "manifestPlusVersion": "1.2.0"
+}
