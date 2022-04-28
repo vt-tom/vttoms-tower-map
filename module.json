@@ -63,7 +63,7 @@
 	}
   ],
   "url": "",
-  "manifest": "https://raw.githubusercontent.com/vt-tom/vttoms-tower-map/1.3.0/module.json?token=GHSAT0AAAAAABQ2G3BUZZ3NGG4UJQW47LTYYTKQBAQ",
-  "download": "https://github.com/vt-tom/vttoms-tower-map/archive/refs/tags/1.3.0.zip",
+  "manifest": "https://raw.githubusercontent.com/vt-tom/vttoms-tower-map/main/module.json",
+  "download": "https://github.com/vt-tom/vttoms-tower-map/releases/download/1.4.0/vttoms-tower-map-1.4.0.zip",
   "manifestPlusVersion": "1.2.0"
 }
