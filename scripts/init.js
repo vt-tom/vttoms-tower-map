@@ -10,7 +10,7 @@
    * Set to the following to disable:
    *   const welcomeJournal = '';
    */
-  const welcomeJournal = 'Introduction';
+  const welcomeJournal = 'Vorwort';
   /**
    * additionalJournals will automatically be imported. This is a list of Journals by name that should
    * also be imported.
